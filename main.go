@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Hi there")
-	fmt.Printf("%v", math.Pi)
+	fmt.Printf("%v, %T", math.Pi, math.Pi)
 }
